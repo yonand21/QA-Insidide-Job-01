@@ -1,0 +1,20 @@
+import LoginPage from "../support/Object/LoginPage"
+import InventoryPage from "../support/Object/InventoryPage"
+import CartPage from "../support/Object/CartPage"
+
+describe('Cart Test', () => {
+  it('Remve item from cart', () => {
+  LoginPage.visit()
+  LoginPage.checkloginForm()
+  LoginPage.validUser()
+  LoginPage.succesLogin()
+
+  InventoryPage.checkInventory()
+  InventoryPage.addProduct()
+  InventoryPage.chartPage()
+  
+  CartPage.verifyItem()
+  CartPage.removeItem()
+  CartPage.verifyremoveItem()
+  })
+})
