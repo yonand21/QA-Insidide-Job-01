@@ -1,6 +1,6 @@
 # 🧪 Cypress E2E Testing – SauceDemo
 
-![Cypress Test Demo](https://tenor.com/id/view/nerd-nahida-gif-8339133489859238958)
+![Cypress Test Demo](https://tenor.com/j6btZGEAjxO.gif)
 
 Proyek ini berisi otomatisasi end-to-end testing menggunakan [Cypress](https://www.cypress.io/) pada situs demo [saucedemo.com](https://www.saucedemo.com/v1/). Pengujian mencakup seluruh alur mulai dari login, pemilihan produk, hingga proses checkout, lengkap dengan validasi UI dan error handling.
 
