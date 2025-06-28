@@ -1,0 +1,12 @@
+# Dependency folder
+node_modules/
+
+# Cypress artifacts
+cypress/videos/
+cypress/screenshots/
+
+# Environment
+.env
+
+# System files
+.DS_Store
